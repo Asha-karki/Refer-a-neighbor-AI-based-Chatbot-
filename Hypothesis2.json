@@ -1,0 +1,2803 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't get it"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Create_account",
+      "examples": [
+        {
+          "text": "I want to sign up."
+        },
+        {
+          "text": "Can I have my account?"
+        },
+        {
+          "text": "Can I create an account?"
+        },
+        {
+          "text": "Can I create my account?"
+        },
+        {
+          "text": "How can I create my account?"
+        },
+        {
+          "text": "I want to log in my account."
+        },
+        {
+          "text": "I need new account."
+        },
+        {
+          "text": "How can I sign-up ?"
+        },
+        {
+          "text": "I want to register."
+        },
+        {
+          "text": "I want to have an account."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "Goodbyes",
+      "examples": [
+        {
+          "text": "talk to you later"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "byebye"
+        }
+      ]
+    },
+    {
+      "intent": "Collect_address",
+      "examples": [
+        {
+          "text": "I live at 556 Upper Heidelberg Ivanhoe",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "781 Page St Botany",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "322 Coventry St South Melbourne",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "556 Upper Heidelberg Rd Ivanhoe",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My address is 123 Bell St Kingston",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                14,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "124 Inkerman St St Kilda",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "211 Main St Boxhill",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "763 Collins St Collingwood",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live at 123 Bell St Kingston",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "hey"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "kia ora"
+        },
+        {
+          "text": "Hello!"
+        },
+        {
+          "text": "Hi!"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "Hey!"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Where'd you go?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "no"
+        },
+        {
+          "text": "Sorry, I don't want to."
+        },
+        {
+          "text": "Sorry, no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "Nah"
+        }
+      ]
+    },
+    {
+      "intent": "Unit",
+      "examples": [
+        {
+          "text": "U1401"
+        },
+        {
+          "text": "U764"
+        },
+        {
+          "text": "U1201"
+        },
+        {
+          "text": "U706"
+        },
+        {
+          "text": "U807"
+        },
+        {
+          "text": "U502"
+        },
+        {
+          "text": "U906"
+        },
+        {
+          "text": "U514"
+        },
+        {
+          "text": "U1213"
+        },
+        {
+          "text": "U824"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Contact_human",
+      "examples": [
+        {
+          "text": "human agent"
+        },
+        {
+          "text": "Contact a human agent"
+        },
+        {
+          "text": "Can I contact human agent"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "sure"
+        },
+        {
+          "text": "of course"
+        },
+        {
+          "text": "yep"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yeah sure"
+        }
+      ]
+    },
+    {
+      "intent": "About_Wattblock",
+      "examples": [
+        {
+          "text": "What is the price of solar system?"
+        },
+        {
+          "text": "Do you have new products?"
+        },
+        {
+          "text": "What is the URL of Wattblock?"
+        },
+        {
+          "text": "How can Wattblock help me?"
+        },
+        {
+          "text": "What does your company do?"
+        },
+        {
+          "text": "Is Wattblock really solar installation company?"
+        },
+        {
+          "text": "What are the work done by Wattblock?"
+        },
+        {
+          "text": "If I want to install solar panel in my residents,Should I contact the company Wattblock?"
+        },
+        {
+          "text": "Questions on Wattblock Project "
+        },
+        {
+          "text": "What is Wattblock official website?"
+        }
+      ],
+      "description": "Other questions about Wattblock"
+    },
+    {
+      "intent": "Refer_A_Neighbour",
+      "examples": [
+        {
+          "text": "How can I add my neighbour?"
+        },
+        {
+          "text": "I want to share with my neighbours."
+        },
+        {
+          "text": "Who is my neighbour?"
+        },
+        {
+          "text": "Can I add my friend in?"
+        },
+        {
+          "text": "Can I let my neighbour join in the group?"
+        },
+        {
+          "text": "Can I invite my neighbour in the group?"
+        },
+        {
+          "text": "How can I share with my neighbour?"
+        },
+        {
+          "text": "Does my neighbour will be fine if I add him without his permission?"
+        },
+        {
+          "text": "Who can be my neighbour?"
+        },
+        {
+          "text": "Is it fine if I don't want to refer my neighbour?"
+        },
+        {
+          "text": "I don't know my neighbour."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Phone_number",
+      "examples": [
+        {
+          "text": "423-010-418"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thank_you",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "Thank you so much!"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "cheers"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "rating",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "rate2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate5",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "identify",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tenant",
+          "synonyms": [
+            "tenants",
+            "renter",
+            "tenancy",
+            "occupier"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "owner",
+          "synonyms": [
+            "owners",
+            "landlord"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Au number",
+          "patterns": [
+            "(\\d{3})(\\d{3})(\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah, yep"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nope"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "apartment_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "number",
+          "patterns": [
+            "(\\d{3})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "apartment_number",
+      "output": {
+        "generic": [
+          {
+            "title": "Please check apartment number ",
+            "options": [
+              {
+                "label": "Confirm ",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Retype",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595961948018",
+      "conditions": "@apartment_number",
+      "dialog_node": "node_6_1595998365366",
+      "previous_sibling": "node_6_1595998032349"
+    },
+    {
+      "type": "standard",
+      "title": "phone_number",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you! Please confirm number once again. ",
+            "options": [
+              {
+                "label": "Confirm",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Retype",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595961948018",
+      "conditions": "@phone_number",
+      "dialog_node": "node_6_1595998032349"
+    },
+    {
+      "type": "standard",
+      "title": "rate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us to improve. "
+              },
+              {
+                "text": "And thanks for visiting us. Have a great day 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1597125623181",
+      "conditions": "@rating",
+      "dialog_node": "node_1_1597126179980"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for visiting us. Have a nice day!😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596002548332",
+      "conditions": "@response:no",
+      "dialog_node": "node_5_1597126465692",
+      "previous_sibling": "node_3_1597125623181"
+    },
+    {
+      "type": "standard",
+      "title": "Rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596002548332",
+      "conditions": "@response:yes",
+      "dialog_node": "node_3_1597125623181"
+    },
+    {
+      "type": "standard",
+      "title": "retype_correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! May I have his/her apartment number please? \n⭐️E.g. 443"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596001083564",
+      "conditions": "@phone_number",
+      "dialog_node": "node_6_1596001572875"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! Welcome to Wattblock’s chabot! Try me… Have you heard of  Wattblock saving energy project before? "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Awesome! Would you like to invite your friend or neighbour in our WhatsApp Group? We appreciate it so much if it's possible for you. 😊 "
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Any questions about Wattblock Project? Please check out our official website😊 "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "dialog_node": "response_1_1595956526383",
+      "previous_sibling": "node_2_1595960137280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Please choose one below ",
+            "options": [
+              {
+                "label": "Yes I would like to invite them. ",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "No thanks. ",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_7_1595956543403",
+      "previous_sibling": "response_1_1595956526383"
+    },
+    {
+      "type": "standard",
+      "title": "invite_neighbour",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to invite your friend or neighbor to our WhatsApp Group?  We will appreciate it so much if it's possible for you.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please choose one below ",
+            "options": [
+              {
+                "label": "Yes I would like to invite them ",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No thanks. ",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "@response:yes",
+      "dialog_node": "node_2_1595960137280"
+    },
+    {
+      "type": "standard",
+      "title": "reward_no",
+      "parent": "node_1_1597123488891",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1596118690284"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_8_1597124270038",
+      "previous_sibling": "node_10_1597124266938"
+    },
+    {
+      "type": "standard",
+      "title": "reward_yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a 20% OFF coupon. Please redeem your voucher on your next electricity billing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Use code: WAT20"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1597123488891",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1596118690284"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_10_1597124266938"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596119432249",
+      "conditions": "@response:no",
+      "dialog_node": "node_13_1596122103210",
+      "previous_sibling": "node_11_1596122072605"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596119432249",
+      "conditions": "@response:yes",
+      "dialog_node": "node_11_1596122072605",
+      "previous_sibling": "slot_2_1597146776540"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1596119432249",
+      "dialog_node": "slot_2_1597146776540"
+    },
+    {
+      "type": "standard",
+      "title": "invite_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good! Thanks for your reply 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1595960137280",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595960384697"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_1_1596020137038",
+      "previous_sibling": "node_7_1595960875507"
+    },
+    {
+      "type": "standard",
+      "title": "invite_yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's great! Would you like to tell us your connection with the apartment?  If you don't mind."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please choose one below ",
+            "options": [
+              {
+                "label": "Tenant",
+                "value": {
+                  "input": {
+                    "text": "Tenant "
+                  }
+                }
+              },
+              {
+                "label": "Owner",
+                "value": {
+                  "input": {
+                    "text": "Owner"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595960137280",
+      "conditions": "@response:yes",
+      "dialog_node": "node_7_1595960875507"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596118690284",
+      "conditions": "@rating",
+      "dialog_node": "node_5_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "phone_number_retype",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please retype your phone number 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998032349",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1595998365366"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_1_1596001083564",
+      "previous_sibling": "node_3_1595998361463"
+    },
+    {
+      "type": "standard",
+      "title": "phone_number_confirm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fabulous, Could you please provide your apartment number?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Please enter in format eg.145"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998032349",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1595998365366"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_3_1595998361463"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your rating! It helps us a lot. Have a nice day 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1596118690284",
+      "conditions": "@rating",
+      "dialog_node": "node_9_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596029631503",
+      "conditions": "@rating",
+      "dialog_node": "node_2_1596029631515"
+    },
+    {
+      "type": "standard",
+      "title": "Questions_about_Wattblock",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any questions about Wattblock Project, please check it on <a href=\"https://www.wattblock.com/\" target=\"blank\">our official website</a> 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service ? Your ratings will help us improve service!  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595960384697",
+      "conditions": "#About_Wattblock",
+      "dialog_node": "node_5_1596018115034",
+      "previous_sibling": "node_3_1596018221709"
+    },
+    {
+      "type": "standard",
+      "title": " Just browsing ,nothing much",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service? Your ratings will help us improve service!  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595960384697",
+      "conditions": "@response:no",
+      "dialog_node": "node_10_1596017695654",
+      "previous_sibling": "node_5_1596018115034"
+    },
+    {
+      "type": "standard",
+      "title": "Refer_a_neighbour",
+      "parent": "node_5_1595960384697",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595960137280"
+      },
+      "conditions": "#Refer_A_Neighbour",
+      "dialog_node": "node_3_1596018221709"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1596118690284",
+      "conditions": "@response:no",
+      "dialog_node": "node_6_1596118690284",
+      "previous_sibling": "node_4_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️1",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️2",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️3",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️4",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️5",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1596118690284",
+      "conditions": "@response:yes",
+      "dialog_node": "node_4_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1595996756000",
+      "conditions": "@rating",
+      "dialog_node": "node_3_1595996756014"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1596018115034",
+      "conditions": "@response:no",
+      "dialog_node": "node_3_1596029652934",
+      "previous_sibling": "node_1_1596029631503"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1596018115034",
+      "conditions": "@response:yes",
+      "dialog_node": "node_1_1596029631503"
+    },
+    {
+      "type": "frame",
+      "title": "collect_info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any information collected from you will not be sold, shared, or rented to others. "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "It's for confirmation purposes only. Thank you."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Is it possible to have your phone number, please?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Please enter your Phone number. (eg 0412333333)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595960875507",
+      "conditions": "@identify",
+      "dialog_node": "node_2_1595961948018"
+    },
+    {
+      "type": "standard",
+      "title": "Request_list",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Please Choose the topic below 👇"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Refer a neighbour / friend",
+                "value": {
+                  "input": {
+                    "text": "Refer a neighbour / friend"
+                  }
+                }
+              },
+              {
+                "label": "Questions on Wattblock Project ",
+                "value": {
+                  "input": {
+                    "text": "Questions on Wattblock Project "
+                  }
+                }
+              },
+              {
+                "label": "Nope, just browsing ",
+                "value": {
+                  "input": {
+                    "text": "Nope, just browsing "
+                  }
+                }
+              },
+              {
+                "label": "Contact a human agent",
+                "value": {
+                  "input": {
+                    "text": "Contact a human agent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "conditions": "",
+      "dialog_node": "node_1_1596118690275"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1596122072605",
+      "conditions": "@rating",
+      "dialog_node": "node_12_1596122072617"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Catch ya later! Thanks for chatting 😇"
+              },
+              {
+                "text": "Nice talking to you today! 😇"
+              },
+              {
+                "text": "Have a nice day! 😇"
+              },
+              {
+                "text": "Goodbye! 😇"
+              },
+              {
+                "text": "See you next time! 😇"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1594317329821",
+      "conditions": "#Goodbyes",
+      "dialog_node": "node_8_1594317564194",
+      "previous_sibling": "node_1_1594317393175"
+    },
+    {
+      "type": "standard",
+      "title": "Thankyou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome! Please let me know if you need anything else 😆"
+              },
+              {
+                "text": "My pleasure! 😇"
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with! 😆"
+              },
+              {
+                "text": "I aim to please 😇"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594317329821",
+      "conditions": "#Thank_you",
+      "dialog_node": "node_9_1594317874363",
+      "previous_sibling": "node_8_1594317564194"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! Welcome to Wattblock’s chabot! ☀️ Try me… \nHave you heard of  Wattblock saving energy project before? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594317329821",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_1_1594317393175"
+    },
+    {
+      "type": "standard",
+      "title": "apartment_number_retype",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please retype your apartment number 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998365366",
+      "conditions": "@response:no",
+      "dialog_node": "node_9_1596002656400",
+      "previous_sibling": "node_1_1596002548332"
+    },
+    {
+      "type": "standard",
+      "title": "apartment_number_confirm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your patience! Here is the link of <a href=\"https://chat.whatsapp.com/CyT6QJdGyQ5GNH5pYWJWNS\" target=\"blank\">our WhatsApp Group</a>. Please use this link to invite them 😇"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998365366",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1597123488891"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_1_1596002548332"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1597146776540",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1597146776578",
+      "previous_sibling": "handler_9_1597146776578"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1597146776540",
+      "event_name": "input",
+      "dialog_node": "handler_9_1597146776578"
+    },
+    {
+      "type": "standard",
+      "title": " Just browsing ,nothing much",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service? Your ratings will help us improve service! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596118690275",
+      "conditions": "@response:no",
+      "dialog_node": "node_7_1596118690284",
+      "previous_sibling": "node_3_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "Questions_about_Wattblock",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any questions about Wattblock Project, please check it on <a href=\"https://www.wattblock.com/\" target=\"blank\">our official website</a> 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service ? Your ratings will help us improve service! 🤗 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596118690275",
+      "conditions": "#About_Wattblock",
+      "dialog_node": "node_3_1596118690284",
+      "previous_sibling": "node_2_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "contact_human_agent",
+      "output": {
+        "generic": [
+          {
+            "response_type": "connect_to_agent",
+            "message_to_human_agent": "  Request for your help @sys-date.day."
+          },
+          {
+            "values": [
+              {
+                "text": "We apologize for any frustrating experience. In the meantime here's our contact number  (02) 56897563 and email humanagent@abc.com for further contact."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to take one second to rate our chatbot service ? Your ratings will help us improve service! 🤗 ",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596118690275",
+      "context": {},
+      "conditions": "#Contact_human",
+      "dialog_node": "node_1_1596119432249",
+      "previous_sibling": "node_7_1596118690284",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Refer_a_neighbour",
+      "output": {},
+      "parent": "node_1_1596118690275",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595960137280"
+      },
+      "conditions": "#Refer_A_Neighbour",
+      "dialog_node": "node_2_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1596118690284",
+      "conditions": "@response:no",
+      "dialog_node": "node_10_1596118690284",
+      "previous_sibling": "node_8_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1596118690284",
+      "conditions": "@response:yes",
+      "dialog_node": "node_8_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1596017695654",
+      "conditions": "@response:no",
+      "dialog_node": "node_1_1596018037098",
+      "previous_sibling": "node_2_1595996756000"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1596017695654",
+      "conditions": "@response:yes",
+      "dialog_node": "node_2_1595996756000"
+    },
+    {
+      "type": "standard",
+      "title": "Reward_20",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you for visiting us😊 Do you prefer to have rewards from us?",
+            "options": [
+              {
+                "label": "Yes, thank you",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not interested",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_1_1597123488891",
+      "previous_sibling": "node_4_1595963816632"
+    },
+    {
+      "type": "folder",
+      "title": "General",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1594317329821",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you today?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1596118690275"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1597123488891",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Rate_our_service",
+      "output": {
+        "generic": [
+          {
+            "title": "How would your rate our service on a scale of 1 to 5? ",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1596118690284"
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1595963816632",
+      "previous_sibling": "node_5_1595960384697"
+    },
+    {
+      "type": "standard",
+      "title": "Request_list",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Anything else we can do for you today? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Refer a neighbour / friend",
+                "value": {
+                  "input": {
+                    "text": "Refer a neighbour / friend"
+                  }
+                }
+              },
+              {
+                "label": "Questions on Wattblock Project ",
+                "value": {
+                  "input": {
+                    "text": "Questions on Wattblock Project "
+                  }
+                }
+              },
+              {
+                "label": " Just browsing ,nothing much",
+                "value": {
+                  "input": {
+                    "text": " Just browsing ,nothing much"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1595960384697",
+      "previous_sibling": "node_2_1594317329821"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there! 👋 Welcome to Wattblock’s Chabot for Referring a neighbor. Try me… "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595960137280"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Thank you so much!"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "auto_learn": {
+      "apply": false
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "hypothesis2",
+  "language": "en",
+  "description": "individual research"
+}

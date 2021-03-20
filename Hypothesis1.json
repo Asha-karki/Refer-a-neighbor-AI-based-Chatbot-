@@ -1,0 +1,4373 @@
+{
+  "intents": [
+    {
+      "intent": "Utilities_File_A_Loss_Claim",
+      "examples": [
+        {
+          "text": "Help us to fix the smoke heater problem claim"
+        },
+        {
+          "text": "Help me fill a claim on my fuel heater insurance"
+        },
+        {
+          "text": "File tumbler claim"
+        },
+        {
+          "text": "File the insurance claim"
+        },
+        {
+          "text": "By a hailstorm our panels were affected. insurance covers them"
+        },
+        {
+          "text": "Begin an insurance claim"
+        },
+        {
+          "text": "We want to submit the claim for the gas heater insurance"
+        },
+        {
+          "text": "We want to submit smoke heater insurance claim"
+        },
+        {
+          "text": "We need to make a claim on our gas heater insurance"
+        },
+        {
+          "text": "The hail storm destroyed our solar panels. they are insured"
+        },
+        {
+          "text": "What is the insurance claim process?"
+        },
+        {
+          "text": "My solar panels were destroyed due to severe weather."
+        },
+        {
+          "text": "Where can I submit gas heater coverage complaints?"
+        },
+        {
+          "text": "My solar panels got destroyed up in a hail storm and they are insured"
+        },
+        {
+          "text": "My fridge is broken after the electrical storm"
+        },
+        {
+          "text": "In a hail storm our solar panels got messed up"
+        },
+        {
+          "text": "I want to start a claim on my gas heater"
+        },
+        {
+          "text": "How to enter a fuel heater coverage claim?"
+        },
+        {
+          "text": "How do I finish an insurance claim?"
+        },
+        {
+          "text": "How do I file a claim for hail damaged solar panels?"
+        }
+      ],
+      "description": "File a claim for a loss."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Please start a new chat"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Create_account",
+      "examples": [
+        {
+          "text": "Can I have my account?"
+        },
+        {
+          "text": "Can I create an account?"
+        },
+        {
+          "text": "Can I create my account?"
+        },
+        {
+          "text": "I want to sign up."
+        },
+        {
+          "text": "I want to register."
+        },
+        {
+          "text": "How can I sign-up ?"
+        },
+        {
+          "text": "I need new account."
+        },
+        {
+          "text": "I want to log in my account."
+        },
+        {
+          "text": "How can I create my account?"
+        },
+        {
+          "text": "I want to have an account."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "no"
+        },
+        {
+          "text": "Sorry, I don't want to."
+        },
+        {
+          "text": "Sorry, no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "Nah"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Are you on?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are awesome"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I need more information"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Utilities_Storm_Status",
+      "examples": [
+        {
+          "text": "How long does the flood last?"
+        },
+        {
+          "text": "Will the weather hit here?"
+        },
+        {
+          "text": "Will the storm travel through my city?"
+        },
+        {
+          "text": "Will the disaster affect this parish?"
+        },
+        {
+          "text": "Will the area be flooded for long?"
+        },
+        {
+          "text": "Where will tornado hit?"
+        },
+        {
+          "text": "Where will the tornado contact be?"
+        },
+        {
+          "text": "When will the tides change?"
+        },
+        {
+          "text": "When is the hurricane after effects going to recede?"
+        },
+        {
+          "text": "What is the projected path of the tornado?"
+        },
+        {
+          "text": "What is the forecast in my area like?"
+        },
+        {
+          "text": "To what extent is going to take before this end?"
+        },
+        {
+          "text": "Thunder near us"
+        },
+        {
+          "text": "It's possible be flooding there?"
+        },
+        {
+          "text": "I would like to know if the tornado is coming through my neighborhood."
+        },
+        {
+          "text": "How's the weather going to be?"
+        },
+        {
+          "text": "Does the weather affect me?"
+        },
+        {
+          "text": "Does the storm affect us?"
+        },
+        {
+          "text": "Do you know the expected duration of the flood?"
+        },
+        {
+          "text": "Current storm info"
+        }
+      ],
+      "description": "Request current storm information."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You are on my nerves"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "You read my mind"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "Never"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Utilities_Construction",
+      "examples": [
+        {
+          "text": "Can I receive calls while I work on the construction?"
+        },
+        {
+          "text": "Will you help us wire up the new rooms we added?"
+        },
+        {
+          "text": "What things do I need to take into account before doing a remodeling?"
+        },
+        {
+          "text": "What should I consider doing first before renovating and creating more space with a room?"
+        },
+        {
+          "text": "What are ways to rewire a room?"
+        },
+        {
+          "text": "What are the regulations regarding knocking down this wall?"
+        },
+        {
+          "text": "We're making the house bigger"
+        },
+        {
+          "text": "We are doing a house improvement project."
+        },
+        {
+          "text": "Tell me about the law I need to follow when remodeling"
+        },
+        {
+          "text": "Is calling during construction allowed?"
+        },
+        {
+          "text": "I'm remodeling my house"
+        },
+        {
+          "text": "I'm redoing our roof and would like to add solar panels"
+        },
+        {
+          "text": "I want to tell you that I am starting construction"
+        },
+        {
+          "text": "I need to keep my service doing my home construction."
+        },
+        {
+          "text": "I have to dig by the house"
+        },
+        {
+          "text": "I have got some home improving work booked soon"
+        },
+        {
+          "text": "Can I relocate the fridge socket?"
+        },
+        {
+          "text": "Can solar panels be installed when redoing the roof?"
+        },
+        {
+          "text": "Can you disconnect my gas supply as I'm rebuilding my house?"
+        },
+        {
+          "text": "How can I have solar panels placed during a roofing project?"
+        }
+      ],
+      "description": "Inquire about the impact that a construction project has on a utility service."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "A different matter"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Goodbyes",
+      "examples": [
+        {
+          "text": "byebye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "talk to you later"
+        }
+      ]
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Phone_number",
+      "examples": [
+        {
+          "text": "423-010-418"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thank_you",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Thank you so much!"
+        }
+      ]
+    },
+    {
+      "intent": "Utilities_Stop_Service",
+      "examples": [
+        {
+          "text": "How do I shut off the gas and electricity?"
+        },
+        {
+          "text": "We will not be for a few months. can you cut off energy during the holidays?"
+        },
+        {
+          "text": "We no longer wish to be connected to the grid"
+        },
+        {
+          "text": "Turn off my service."
+        },
+        {
+          "text": "Turn off my electricity supply."
+        },
+        {
+          "text": "Take down the utility"
+        },
+        {
+          "text": "Remove us from the power grid"
+        },
+        {
+          "text": "I'm not interested in your service"
+        },
+        {
+          "text": "I'm leaving this solar panel provider for another one."
+        },
+        {
+          "text": "I'm done with this service"
+        },
+        {
+          "text": "I'm at the end of my tether with your company."
+        },
+        {
+          "text": "I'd like to cancel the service for my gas."
+        },
+        {
+          "text": "I would like to discontinue the services."
+        },
+        {
+          "text": "I don't need a power supply any longer."
+        },
+        {
+          "text": "I am finished with the solar panel service."
+        },
+        {
+          "text": "Discontinue gas."
+        },
+        {
+          "text": "Disconnect form the electric power"
+        },
+        {
+          "text": "Could you please turn off my lights?"
+        },
+        {
+          "text": "Can you suspend my electric supply for a while as I am going on an extended vacation?"
+        },
+        {
+          "text": "Can you disconnect me from the service?"
+        }
+      ],
+      "description": "Stop a service."
+    },
+    {
+      "intent": "Utilities_Find_A_Generator",
+      "examples": [
+        {
+          "text": "Who supplies generators?"
+        },
+        {
+          "text": "Where are the generators near me?"
+        },
+        {
+          "text": "Where are the generators to be found?"
+        },
+        {
+          "text": "Where can I buy a generator?"
+        },
+        {
+          "text": "Where can I find a back up power supply?"
+        },
+        {
+          "text": "Where is a power generation system?"
+        },
+        {
+          "text": "Where there is a generator that is not far away?"
+        },
+        {
+          "text": "Find a power generator close to my location"
+        },
+        {
+          "text": "Finding a secondary power supply"
+        },
+        {
+          "text": "How can I find the nearest generator?"
+        },
+        {
+          "text": "How can I locate a generator?"
+        },
+        {
+          "text": "How do I get a generator in case of power loss?"
+        },
+        {
+          "text": "I have to get a generator."
+        },
+        {
+          "text": "I need a generator in my neighborhood"
+        },
+        {
+          "text": "I need backup power"
+        },
+        {
+          "text": "I need supplemental power."
+        },
+        {
+          "text": "I want to buy a generator"
+        },
+        {
+          "text": "What stores in my area sell generators?"
+        },
+        {
+          "text": "What's the closest emergency power source?"
+        },
+        {
+          "text": "What's the closest power station to me?"
+        }
+      ],
+      "description": "Locate a generator."
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yep"
+        },
+        {
+          "text": "of course"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "yeah sure"
+        }
+      ]
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Utilities_Start_Service",
+      "examples": [
+        {
+          "text": "How do I turn the lights on in my new home?"
+        },
+        {
+          "text": "How to I get my electricity supply hooked up?"
+        },
+        {
+          "text": "I want a reconnection of my gas service"
+        },
+        {
+          "text": "Start utilities."
+        },
+        {
+          "text": "Would you please fix electricity connection?"
+        },
+        {
+          "text": "Who do I need to contact in order to get a gas supply to my location?"
+        },
+        {
+          "text": "The house is backed up please check if the gas is working and begin the supply of gas to the house"
+        },
+        {
+          "text": "We completed the required building inspection so please connect the gas."
+        },
+        {
+          "text": "What is the process for starting this service?"
+        },
+        {
+          "text": "I wish to start an electrical supply what are the steps to achieving this?"
+        },
+        {
+          "text": "I need information on requesting service."
+        },
+        {
+          "text": "Add the electricity to home"
+        },
+        {
+          "text": "Explain how to connect the electric service"
+        },
+        {
+          "text": "How I get power for the first time?"
+        },
+        {
+          "text": "How to reactivate my gas service?"
+        },
+        {
+          "text": "I'd like to get electricity in my house"
+        },
+        {
+          "text": "How can I start electricity?"
+        },
+        {
+          "text": "How can I turn on the gas?"
+        },
+        {
+          "text": "How do I arrange for my service to begin?"
+        },
+        {
+          "text": "How to get my power supply connected?"
+        }
+      ],
+      "description": "Start a service."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "No"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Unit",
+      "examples": [
+        {
+          "text": "U906"
+        },
+        {
+          "text": "U824"
+        },
+        {
+          "text": "U1213"
+        },
+        {
+          "text": "U514"
+        },
+        {
+          "text": "U502"
+        },
+        {
+          "text": "U807"
+        },
+        {
+          "text": "U706"
+        },
+        {
+          "text": "U1201"
+        },
+        {
+          "text": "U764"
+        },
+        {
+          "text": "U1401"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "About_Wattblock",
+      "examples": [
+        {
+          "text": "Do you have new products?"
+        },
+        {
+          "text": "If I want to install solar panel in my residents,Should I contact the company Wattblock?"
+        },
+        {
+          "text": "What are the work done by Wattblock?"
+        },
+        {
+          "text": "Is Wattblock really solar installation company?"
+        },
+        {
+          "text": "What does your company do?"
+        },
+        {
+          "text": "How can Wattblock help me?"
+        },
+        {
+          "text": "What is the URL of Wattblock?"
+        },
+        {
+          "text": "What is the price of solar system?"
+        },
+        {
+          "text": "What is Wattblock official website?"
+        },
+        {
+          "text": "Questions on Wattblock Project "
+        }
+      ],
+      "description": "Other questions about Wattblock"
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Utilities_Outage_Status",
+      "examples": [
+        {
+          "text": "It's thundering out, will I lose power?"
+        },
+        {
+          "text": "Are you able to repair my blackout asap?"
+        },
+        {
+          "text": "Can you tell me when the service is going to return?"
+        },
+        {
+          "text": "Do you have a timeframe for service resume?"
+        },
+        {
+          "text": "Which locations don't have any power?"
+        },
+        {
+          "text": "Where is the service interrupted?"
+        },
+        {
+          "text": "Where can I search areas for outages?"
+        },
+        {
+          "text": "When will this outage be over?"
+        },
+        {
+          "text": "When will the fuel system be back on?"
+        },
+        {
+          "text": "What is time frame for lights back on?"
+        },
+        {
+          "text": "What happened to the electricity?"
+        },
+        {
+          "text": "What areas are affected by the black out?"
+        },
+        {
+          "text": "Power has just returned at my house"
+        },
+        {
+          "text": "Has the company estimated how long this will take?"
+        },
+        {
+          "text": "I need you to tell me how long it takes to fix the blackout?"
+        },
+        {
+          "text": "Is the power out in my area?"
+        },
+        {
+          "text": "Is the power out locally?"
+        },
+        {
+          "text": "Is there a power outage in my city?"
+        },
+        {
+          "text": "Is there an electric failure?"
+        },
+        {
+          "text": "Is there an status update on the outage in fountain valley?"
+        }
+      ],
+      "description": "Request current information on a disruption of service."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "Utilities_View_Usage",
+      "examples": [
+        {
+          "text": "What was my electric usage this past month?"
+        },
+        {
+          "text": "How much electricity did I utilize in the past week or so?"
+        },
+        {
+          "text": "How much electricity I am using?"
+        },
+        {
+          "text": "How do I get energy use reports?"
+        },
+        {
+          "text": "How do I determine my electricity consumption?"
+        },
+        {
+          "text": "Did my usage increase"
+        },
+        {
+          "text": "Did my usage go up"
+        },
+        {
+          "text": "Can you tell the quantity of energy use?"
+        },
+        {
+          "text": "Can you show me power consumption?"
+        },
+        {
+          "text": "Where can I see my utilities usage?"
+        },
+        {
+          "text": "Where do I find the relevant info concerning my power consumption?"
+        },
+        {
+          "text": "How much electricity have I been consuming of late?"
+        },
+        {
+          "text": "How much energy have I used in the past couple weeks?"
+        },
+        {
+          "text": "I'd like to view my home's power use"
+        },
+        {
+          "text": "Information on utility usage for a specific time"
+        },
+        {
+          "text": "Is there a statement for used power?"
+        },
+        {
+          "text": "May I see the electric meter readings"
+        },
+        {
+          "text": "What are my energy stats?"
+        },
+        {
+          "text": "What is my meter usage?"
+        },
+        {
+          "text": "What is my spent electricity amount for previous month?"
+        }
+      ],
+      "description": "Request details on energy use."
+    },
+    {
+      "intent": "Utilities_Report_Usage",
+      "examples": [
+        {
+          "text": "How do I file information on electricity usage?"
+        },
+        {
+          "text": "Can I report my kwh data online?"
+        },
+        {
+          "text": "Can I report the number on my meter for this month?"
+        },
+        {
+          "text": "Can I report what my meter says?"
+        },
+        {
+          "text": "Can I submit my meter data?"
+        },
+        {
+          "text": "Can I submit my meter numbers to you?"
+        },
+        {
+          "text": "Enter in meter data"
+        },
+        {
+          "text": "Enter in my meter reads"
+        },
+        {
+          "text": "I can tell you my electric meter reading"
+        },
+        {
+          "text": "I would like to report my usage"
+        },
+        {
+          "text": "Record meter readings"
+        },
+        {
+          "text": "Record my electrical usage"
+        },
+        {
+          "text": "Report data on usage"
+        },
+        {
+          "text": "Report reading from my meter"
+        },
+        {
+          "text": "Report the electricity meter reading"
+        },
+        {
+          "text": "Report usage numbers"
+        },
+        {
+          "text": "Report usage registered on power meter"
+        },
+        {
+          "text": "Submit electric usage"
+        },
+        {
+          "text": "Submit electrical meter reading"
+        },
+        {
+          "text": "Submit energy consumption"
+        }
+      ],
+      "description": "Report usage registered on a meter."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "You got me"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Collect_address",
+      "examples": [
+        {
+          "text": "322 Coventry St South Melbourne",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live at 123 Bell St Kingston",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "763 Collins St Collingwood",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "211 Main St Boxhill",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "124 Inkerman St St Kilda",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My address is 123 Bell St Kingston",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                14,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "556 Upper Heidelberg Rd Ivanhoe",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "781 Page St Botany",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live at 556 Upper Heidelberg Ivanhoe",
+          "mentions": [
+            {
+              "entity": "apartment_number",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intent": "Utilities_Report_Outage",
+      "examples": [
+        {
+          "text": "Please schedule a crew to fix the utility pole"
+        },
+        {
+          "text": "The electricity might be out around me"
+        },
+        {
+          "text": "What on earth is happening with the electical supply, nothing is functioning?"
+        },
+        {
+          "text": "I need anybody to help me to fix the hole impregnate gas in my house"
+        },
+        {
+          "text": "Can I got you help for a street light?"
+        },
+        {
+          "text": "Can a service person check on a fallen power line?"
+        },
+        {
+          "text": "Everything indicates that the gas is escaping"
+        },
+        {
+          "text": "How do I report a dangling cable?"
+        },
+        {
+          "text": "I am smelling gas throughout my house I need assistance"
+        },
+        {
+          "text": "I believe one of the electricity cables has been taken out."
+        },
+        {
+          "text": "I don't have power in my neighborhood"
+        },
+        {
+          "text": "A light on my road does not appear to be working"
+        },
+        {
+          "text": "I think our street lamp's bulb needs to be changed"
+        },
+        {
+          "text": "Accidentally left the range on and I am away from the dwelling for the day"
+        },
+        {
+          "text": "I need help. I guess there is gas over the apartment. can someone come over to take care of it?"
+        },
+        {
+          "text": "My electricity cable has become unusable is broken"
+        },
+        {
+          "text": "My street's cable line is down. when will it be repaired?"
+        },
+        {
+          "text": "My tv just turned off and there's no power"
+        },
+        {
+          "text": "One of the lamp posts blew out"
+        },
+        {
+          "text": "One of the lights on our street isn't working properly"
+        }
+      ],
+      "description": "Report a disruption of a utility service."
+    },
+    {
+      "intent": "Contact_human",
+      "examples": [
+        {
+          "text": "Contact a human agent"
+        },
+        {
+          "text": "human agent"
+        },
+        {
+          "text": "Can I contact human agent"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Refer_A_Neighbour",
+      "examples": [
+        {
+          "text": "Can I add my friend in?"
+        },
+        {
+          "text": "I want to share with my neighbours."
+        },
+        {
+          "text": "Who is my neighbour?"
+        },
+        {
+          "text": "Can I let my neighbour join in the group?"
+        },
+        {
+          "text": "Can I invite my neighbour in the group?"
+        },
+        {
+          "text": "How can I share with my neighbour?"
+        },
+        {
+          "text": "Does my neighbour will be fine if I add him without his permission?"
+        },
+        {
+          "text": "Who can be my neighbour?"
+        },
+        {
+          "text": "Is it fine if I don't want to refer my neighbour?"
+        },
+        {
+          "text": "I don't know my neighbour."
+        },
+        {
+          "text": "How can I add my neighbour?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Thanks, bye!"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Hey!"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "kia ora"
+        },
+        {
+          "text": "Hello!"
+        },
+        {
+          "text": "Hi!"
+        },
+        {
+          "text": "good afternoon"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "apartment_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "number",
+          "patterns": [
+            "(\\d{3})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "rating",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "rate3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate1",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Au number",
+          "patterns": [
+            "(\\d{3})(\\d{3})(\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah, yep"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nope"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "identify",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "owner",
+          "synonyms": [
+            "owners",
+            "landlord"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tenant",
+          "synonyms": [
+            "tenants",
+            "renter",
+            "tenancy",
+            "occupier"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1596118690284",
+      "conditions": "@rating",
+      "dialog_node": "node_9_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1596122072605",
+      "conditions": "@rating",
+      "dialog_node": "node_12_1596122072617"
+    },
+    {
+      "type": "standard",
+      "title": "retype_correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! May I have his/her apartment number please? \n⭐️E.g. 443"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596001083564",
+      "conditions": "@phone_number",
+      "dialog_node": "node_6_1596001572875"
+    },
+    {
+      "type": "standard",
+      "title": "apartment_number",
+      "output": {
+        "generic": [
+          {
+            "title": "Please check apartment number ",
+            "options": [
+              {
+                "label": "Confirm ",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Retype",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595961948018",
+      "conditions": "@apartment_number",
+      "dialog_node": "node_6_1595998365366",
+      "previous_sibling": "node_6_1595998032349"
+    },
+    {
+      "type": "standard",
+      "title": "phone_number",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you! Please confirm number once again. ",
+            "options": [
+              {
+                "label": "Confirm",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Retype",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595961948018",
+      "conditions": "@phone_number",
+      "dialog_node": "node_6_1595998032349"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596118690284",
+      "conditions": "@rating",
+      "dialog_node": "node_5_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1596017695654",
+      "conditions": "@response:no",
+      "dialog_node": "node_1_1596018037098",
+      "previous_sibling": "node_2_1595996756000"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1596017695654",
+      "conditions": "@response:yes",
+      "dialog_node": "node_2_1595996756000"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1596018115034",
+      "conditions": "@response:no",
+      "dialog_node": "node_3_1596029652934",
+      "previous_sibling": "node_1_1596029631503"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1596018115034",
+      "conditions": "@response:yes",
+      "dialog_node": "node_1_1596029631503"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1596118690284",
+      "conditions": "@response:no",
+      "dialog_node": "node_6_1596118690284",
+      "previous_sibling": "node_4_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️1",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️2",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️3",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️4",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️5",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1596118690284",
+      "conditions": "@response:yes",
+      "dialog_node": "node_4_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": " Just browsing ,nothing much",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service? Your ratings will help us improve service! 🤗 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595960384697",
+      "conditions": "@response:no",
+      "dialog_node": "node_10_1596017695654",
+      "previous_sibling": "node_5_1596018115034"
+    },
+    {
+      "type": "standard",
+      "title": "Questions_about_Wattblock",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any questions about Wattblock Project, please check it on <a href=\"https://www.wattblock.com/\" target=\"blank\">our official website</a> 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service ? Your ratings will help us improve service! 🤗 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595960384697",
+      "conditions": "#About_Wattblock",
+      "dialog_node": "node_5_1596018115034",
+      "previous_sibling": "node_3_1596018221709"
+    },
+    {
+      "type": "standard",
+      "title": "Refer_a_neighbour",
+      "parent": "node_5_1595960384697",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595960137280"
+      },
+      "conditions": "#Refer_A_Neighbour",
+      "dialog_node": "node_3_1596018221709"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1595996756000",
+      "conditions": "@rating",
+      "dialog_node": "node_3_1595996756014"
+    },
+    {
+      "type": "standard",
+      "title": "phone_number_retype",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please retype your phone number 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998032349",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1595998365366"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_1_1596001083564",
+      "previous_sibling": "node_3_1595998361463"
+    },
+    {
+      "type": "standard",
+      "title": "phone_number_confirm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fabulous, Could you please provide your apartment number?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Please enter in format eg.145"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998032349",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1595998365366"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_3_1595998361463"
+    },
+    {
+      "type": "standard",
+      "title": "apartment_number_retype",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please retype your apartment number 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998365366",
+      "conditions": "@response:no",
+      "dialog_node": "node_9_1596002656400",
+      "previous_sibling": "node_1_1596002548332"
+    },
+    {
+      "type": "standard",
+      "title": "apartment_number_confirm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your patience! Here is the link of <a href=\"https://chat.whatsapp.com/CyT6QJdGyQ5GNH5pYWJWNS\" target=\"blank\">our WhatsApp Group</a>. Please use this link to invite them 😇"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595998365366",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595960384697"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_1_1596002548332"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1596118690284",
+      "conditions": "@response:no",
+      "dialog_node": "node_10_1596118690284",
+      "previous_sibling": "node_8_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1596118690284",
+      "conditions": "@response:yes",
+      "dialog_node": "node_8_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "Questions_about_Wattblock",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any questions about Wattblock Project, please check it on <a href=\"https://www.wattblock.com/\" target=\"blank\">our official website</a> 😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service ? Your ratings will help us improve service! 🤗 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596118690275",
+      "conditions": "#About_Wattblock",
+      "dialog_node": "node_3_1596118690284",
+      "previous_sibling": "node_2_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": " Just browsing ,nothing much",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to take one second to rate our chatbot service ? Your ratings will help us improve service! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596118690275",
+      "conditions": "@response:no",
+      "user_label": "I didn't understand.Please choose topic from down .",
+      "dialog_node": "node_7_1596118690284",
+      "previous_sibling": "node_3_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "contact_human_agent",
+      "output": {
+        "generic": [
+          {
+            "response_type": "connect_to_agent",
+            "message_to_human_agent": "  Request for your help @sys-date.day."
+          },
+          {
+            "values": [
+              {
+                "text": "The agent will be in touch shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "We apologize for any frustrating experience. In the meantime here's our contact number  (02) 56897563 and email humanagent@abc.com for further contact."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to take one second to rate our chatbot service ? Your ratings will help us improve service! 🤗 ",
+            "options": [
+              {
+                "label": "Rate us! 💌",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Not now 😭",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596118690275",
+      "context": {},
+      "conditions": "#Contact_human || #General_Connect_to_Agent",
+      "user_label": "I wasn't able to figure it out.",
+      "dialog_node": "node_1_1596119432249",
+      "previous_sibling": "node_7_1596118690284",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Refer_a_neighbour",
+      "output": {},
+      "parent": "node_1_1596118690275",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595960137280"
+      },
+      "conditions": "#Refer_A_Neighbour",
+      "dialog_node": "node_2_1596118690284"
+    },
+    {
+      "type": "standard",
+      "title": "Thankyou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome! Please let me know if you need anything else 😆"
+              },
+              {
+                "text": "My pleasure! 😇"
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with! 😆"
+              },
+              {
+                "text": "I aim to please 😇"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594317329821",
+      "conditions": "#Thank_you",
+      "dialog_node": "node_9_1594317874363",
+      "previous_sibling": "node_8_1594317564194"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Catch you later! Thanks for chatting 🙂"
+              },
+              {
+                "text": "Nice talking to you today! 🙂"
+              },
+              {
+                "text": "Have a nice day! 🙂"
+              },
+              {
+                "text": "Goodbye! 🙂"
+              },
+              {
+                "text": "See you next time! 🙂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1594317329821",
+      "conditions": "#Goodbyes",
+      "dialog_node": "node_8_1594317564194",
+      "previous_sibling": "node_1_1594317393175"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! Welcome to Wattblock’s chabot! ☀️ Try me… \nHave you heard of  Wattblock saving energy project before? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594317329821",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_1_1594317393175"
+    },
+    {
+      "type": "standard",
+      "title": "invite_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good! Thanks for your reply 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1595960137280",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595960384697"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_1_1596020137038",
+      "previous_sibling": "node_7_1595960875507"
+    },
+    {
+      "type": "standard",
+      "title": "invite_yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's great!😊 Would you like to tell us your connection with the apartment?  If you don't mind."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please choose one below ",
+            "options": [
+              {
+                "label": "Tenant",
+                "value": {
+                  "input": {
+                    "text": "Tenant "
+                  }
+                }
+              },
+              {
+                "label": "Owner",
+                "value": {
+                  "input": {
+                    "text": "Owner"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595960137280",
+      "conditions": "@response:yes",
+      "dialog_node": "node_7_1595960875507"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1597146776540",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1597146776578",
+      "previous_sibling": "handler_9_1597146776578"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1597146776540",
+      "event_name": "input",
+      "dialog_node": "handler_9_1597146776578"
+    },
+    {
+      "type": "standard",
+      "title": "Request_list",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Please Choose the topic below 👇"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Refer a neighbour / friend",
+                "value": {
+                  "input": {
+                    "text": "Refer a neighbour / friend"
+                  }
+                }
+              },
+              {
+                "label": "Questions on Wattblock Project ",
+                "value": {
+                  "input": {
+                    "text": "Questions on Wattblock Project "
+                  }
+                }
+              },
+              {
+                "label": "Nope, just browsing ",
+                "value": {
+                  "input": {
+                    "text": "Nope, just browsing "
+                  }
+                }
+              },
+              {
+                "label": "Contact a human agent",
+                "value": {
+                  "input": {
+                    "text": "Contact a human agent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "conditions": "",
+      "dialog_node": "node_1_1596118690275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Please choose one below ",
+            "options": [
+              {
+                "label": "Yes I would like to invite them. ",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "No thanks. ",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_7_1595956543403",
+      "previous_sibling": "response_1_1595956526383"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! Welcome to Wattblock’s chabot! Try me… Have you heard of  Wattblock saving energy project before? "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Awesome! Would you like to invite your friend or neighbour in our WhatsApp Group? We appreciate it so much if it's possible for you. 😊 "
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Any questions about Wattblock Project? Please check out our official website😊 "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "dialog_node": "response_1_1595956526383",
+      "previous_sibling": "node_2_1595960137280"
+    },
+    {
+      "type": "standard",
+      "title": "invite_neighbour",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to invite your friend or neighbor to our WhatsApp Group? 😊 We will appreciate it so much if it's possible for you.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please choose one below ",
+            "options": [
+              {
+                "label": "Yes I would like to invite them ",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No thanks. ",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "@response:yes",
+      "dialog_node": "node_2_1595960137280"
+    },
+    {
+      "type": "standard",
+      "title": "rate_12345",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us a lot. Have a nice day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596029631503",
+      "conditions": "@rating",
+      "dialog_node": "node_2_1596029631515"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All good 😊 Have a nice day! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596119432249",
+      "conditions": "@response:no",
+      "dialog_node": "node_13_1596122103210",
+      "previous_sibling": "node_11_1596122072605"
+    },
+    {
+      "type": "standard",
+      "title": "rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596119432249",
+      "conditions": "@response:yes",
+      "dialog_node": "node_11_1596122072605",
+      "previous_sibling": "slot_2_1597146776540"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1596119432249",
+      "dialog_node": "slot_2_1597146776540"
+    },
+    {
+      "type": "frame",
+      "title": "collect_info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any information collected from you will not be sold, shared, or rented to others. "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "It's for confirmation purposes only. Thank you."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Is it possible to have your phone number, please?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Please enter your Phone number. (eg 0412333333)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595960875507",
+      "conditions": "@identify",
+      "dialog_node": "node_2_1595961948018"
+    },
+    {
+      "type": "standard",
+      "title": "rate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your rating! It helps us to improve. "
+              },
+              {
+                "text": "And thanks for visiting us. Have a great day 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1597125623181",
+      "conditions": "@rating",
+      "dialog_node": "node_1_1597126179980"
+    },
+    {
+      "type": "standard",
+      "title": "rating_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for visiting us. Have a nice day!😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596002548332",
+      "conditions": "@response:no",
+      "dialog_node": "node_5_1597126465692",
+      "previous_sibling": "node_3_1597125623181"
+    },
+    {
+      "type": "standard",
+      "title": "Rate_yes",
+      "output": {
+        "generic": [
+          {
+            "title": "How would you rate our services on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1596002548332",
+      "conditions": "@response:yes",
+      "dialog_node": "node_3_1597125623181"
+    },
+    {
+      "type": "folder",
+      "title": "General",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1594317329821",
+      "previous_sibling": "node_10_1597198700499"
+    },
+    {
+      "type": "standard",
+      "title": "Negative_comment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That’s not a nice thing to say😔"
+              },
+              {
+                "text": "Sorry I can't help you😔"
+              },
+              {
+                "text": "I’m sorry this is a frustrating experience for you. Feel free to email humanagent@abc.com to reach human customer support if I’m not able to solve your problem right now"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "#General_Negative_Feedback || #Bot_Control_Unsure",
+      "dialog_node": "node_8_1597201355884",
+      "previous_sibling": "node_1_1597202025345"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you today?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1596118690275"
+      },
+      "conditions": "anything_else",
+      "user_label": "I didn't understand.Please choose topic from down .",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1595963816632",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Rate_our_service",
+      "output": {
+        "generic": [
+          {
+            "title": "How would your rate our service on a scale of 1 to 5? ",
+            "options": [
+              {
+                "label": "⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate1"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate2"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate3"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate4"
+                  }
+                }
+              },
+              {
+                "label": "⭐️⭐️⭐️⭐️⭐️",
+                "value": {
+                  "input": {
+                    "text": "rate5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1596118690284"
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1595963816632",
+      "previous_sibling": "node_5_1595960384697"
+    },
+    {
+      "type": "standard",
+      "title": "hold",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yeah sure, I will wait for your response."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1595960384697"
+      },
+      "conditions": "#Bot_Control_Standby || #Bot_Control_Confirm_Presence || #Bot_Control_Reject_Response",
+      "dialog_node": "node_9_1597203217072",
+      "previous_sibling": "node_1_1597204582488"
+    },
+    {
+      "type": "standard",
+      "title": "About me",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for asking. I am Bot, developed as a project of MARK5826. Students create me for helping people to connect. And I am secure to use.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "#General_About_You || #General_Agent_Capabilities || #General_Security_Assurance || #General_Human_or_Bot",
+      "user_label": "I didn't understand.Please choose topic from down .",
+      "dialog_node": "node_10_1597198700499",
+      "previous_sibling": "node_10_1597201359920"
+    },
+    {
+      "type": "standard",
+      "title": "outofscope",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, it's out of my scope"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The only topics I look at are down below. Please choose one."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595960384697"
+      },
+      "conditions": "#General_Jokes || #Utilities_File_A_Loss_Claim || #Utilities_Find_A_Generator || #Utilities_Outage_Status || #Utilities_Report_Usage || #Utilities_Start_Service || #Utilities_Stop_Service || #Utilities_Storm_Status || #Utilities_View_Usage || #Utilities_Construction || #Bot_Control_Change_Subject",
+      "dialog_node": "node_1_1597202025345",
+      "previous_sibling": "node_9_1597203217072"
+    },
+    {
+      "type": "standard",
+      "title": "Request_list",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Anything else we can do for you today? 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Refer a neighbour / friend",
+                "value": {
+                  "input": {
+                    "text": "Refer a neighbour / friend"
+                  }
+                }
+              },
+              {
+                "label": "Questions on Wattblock Project ",
+                "value": {
+                  "input": {
+                    "text": "Questions on Wattblock Project "
+                  }
+                }
+              },
+              {
+                "label": " Just browsing ,nothing much",
+                "value": {
+                  "input": {
+                    "text": " Just browsing ,nothing much"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1595960384697",
+      "previous_sibling": "node_2_1594317329821"
+    },
+    {
+      "type": "standard",
+      "title": "positive response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for such a lovely comment 🙂 it is great that I was able to help you today."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For further topics."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_10_1597201359920",
+      "previous_sibling": "node_8_1597201355884"
+    },
+    {
+      "type": "standard",
+      "title": "End",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bye! Thank you for reaching out to us.🙂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595963816632"
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_1_1597204582488",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there! 👋 Welcome to Referring to a neighbor Chatbot. Try me… "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595960137280"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Thank you so much!"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "auto_learn": {
+      "apply": false
+    },
+    "disambiguation": {
+      "prompt": "I am afraid I didn't gets you. This are the topic what I found.",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "hypothesis1",
+  "language": "en",
+  "description": "individual research"
+}
